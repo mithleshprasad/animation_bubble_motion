@@ -1,0 +1,25 @@
+/* BubbleContainer.css */
+.bubble-container {
+    position: relative;
+    width: 100vw;
+    height: 85vh;
+    overflow: hidden;
+    cursor: move; /* Add cursor property */
+  }
+  
+  .bubble {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    background-color: #7ac80c; /* Adjust color as needed */
+    color: #fff;
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  /* .bg-custom{
+    background-color: #4B343B;
+  } */
